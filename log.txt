@@ -1,0 +1,10 @@
+Aktualny czas: 2022-11-19 19:59:50.565856 | Czas: 0.067905, KOD odpowiedzi: 200, Format JSON, Walidacja: True
+Aktualny czas: 2022-11-19 19:59:50.621751 | Czas: 0.05379, KOD odpowiedzi: 200, Format JSON, Walidacja: True
+Aktualny czas: 2022-11-19 19:59:50.691154 | Czas: 0.066617, KOD odpowiedzi: 200, Format JSON, Walidacja: True
+Aktualny czas: 2022-11-19 19:59:50.743024 | Czas: 0.049026, KOD odpowiedzi: 200, Format JSON, Walidacja: True
+Aktualny czas: 2022-11-19 19:59:50.799939 | Czas: 0.054669, KOD odpowiedzi: 200, Format JSON, Walidacja: True
+Aktualny czas: 2022-11-19 19:59:50.844543 | Czas: 0.042712, KOD odpowiedzi: 200, Format JSON, Walidacja: True
+Aktualny czas: 2022-11-19 19:59:50.891084 | Czas: 0.044398, KOD odpowiedzi: 200, Format JSON, Walidacja: True
+Aktualny czas: 2022-11-19 19:59:50.947690 | Czas: 0.054937, KOD odpowiedzi: 200, Format JSON, Walidacja: True
+Aktualny czas: 2022-11-19 19:59:51.005433 | Czas: 0.050633, KOD odpowiedzi: 200, Format JSON, Walidacja: True
+Aktualny czas: 2022-11-19 19:59:51.052520 | Czas: 0.045532, KOD odpowiedzi: 200, Format JSON, Walidacja: True
