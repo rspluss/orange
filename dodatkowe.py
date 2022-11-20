@@ -7,9 +7,9 @@ class NBP:
 
 
 data = NBP(body='http://api.nbp.pl/api/exchangerates/rates/a/eur/last/100/?format=json')
-
-
 days = []
+
+
 def currency(body):
     response = requests.get(body)
     data = response.json()

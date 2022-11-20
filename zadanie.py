@@ -1,4 +1,5 @@
 import requests
+from jsonschema import validate
 import json
 import time
 from datetime import datetime
@@ -41,17 +42,13 @@ def api(body):
         pkt4 = "To nie jest format JSON"
 
     # pkt. 5
-    def jsonValidation(jsonFile):
-        try:
-            json.dumps(jsonFile)
-        except ValueError as err:
-            return False
-        return True
+    with open('schema.json') as f:
+        schema = json.load(f)
 
-    pkt5 = jsonValidation(response.json())
+    validate(instance=response.json(), schema=schema)
 
-    plik.write(f"Aktualny czas: {datetime.now()} | Czas: {pkt2}, {pkt3}, {pkt4}, Walidacja: {pkt5}\n")
-    return f"Aktualny czas: {datetime.now()} | Czas: {pkt2}, {pkt3}, {pkt4}, Walidacja: {pkt5}"
+    plik.write(f"Aktualny czas: {datetime.now()} | Czas: {pkt2}, {pkt3}, {pkt4}, Walidacja: Poprawna\n")
+    return f"Aktualny czas: {datetime.now()} | Czas: {pkt2}, {pkt3}, {pkt4}, Walidacja: Poprawna"
 
 
 # pkt 6.
@@ -60,5 +57,5 @@ while True:
     for x in range(data.x):
         print(api(body=data.body))
     time.sleep(data.y - ((time.time() - start_time) % data.y))
-
 plik.close()
+
